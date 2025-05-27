@@ -60,17 +60,6 @@ export default function NavigationBar() {
 
           <Tooltip>
             <TooltipTrigger>
-              <NavIcon href="/people" active={pathname === "/people"}>
-                <UsersIcon className="size-5" />
-              </NavIcon>
-            </TooltipTrigger>
-            <TooltipContent className="font-5by7 uppercase tracking-widest font-medium">
-              <p>People</p>
-            </TooltipContent>
-          </Tooltip>
-
-          <Tooltip>
-            <TooltipTrigger>
               <NavIcon href="/garden" active={pathname === "/garden"}>
                 <Sprout className="size-5" />
               </NavIcon>
@@ -88,17 +77,6 @@ export default function NavigationBar() {
             </TooltipTrigger>
             <TooltipContent className="font-5by7 uppercase tracking-widest font-medium">
               <p>Stage</p>
-            </TooltipContent>
-          </Tooltip>
-
-          <Tooltip>
-            <TooltipTrigger>
-              <NavIcon href="/booths" active={pathname === "/booths"}>
-                <PresentationIcon className="size-5" />
-              </NavIcon>
-            </TooltipTrigger>
-            <TooltipContent className="font-5by7 uppercase tracking-widest font-medium">
-              <p>Booths</p>
             </TooltipContent>
           </Tooltip>
         </motion.div>

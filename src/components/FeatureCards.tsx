@@ -4,7 +4,6 @@ import { cn } from "../lib/utils";
 
 // Svgs
 import BoothDemosSvg from "@/components/svg/BoothDemos.svg";
-import FindPeopleSvg from "@/components/svg/FindPeople.svg";
 import Garden from "@/components/svg/Garden.svg";
 import StageDemosSvg from "@/components/svg/StageDemos.svg";
 import FeatureCard from "./FeatureCard";
@@ -16,16 +15,6 @@ interface FeatureCardsProps extends HTMLAttributes<HTMLDivElement> {
 
 // Feature card data
 const FEATURES = [
-  {
-    title: "Find People",
-    description: "Find your matches.",
-    icon: FindPeopleSvg,
-    buttonIcon: Users,
-    buttonText: "Find people",
-    href: "/people",
-    initialRotation: -4.5,
-    delay: 0.1,
-  },
   {
     title: "Stage Demos",
     description: "Lights, camera, action!",
@@ -45,17 +34,7 @@ const FEATURES = [
     href: "/garden",
     initialRotation: -5.8,
     delay: 0.3,
-  },
-  {
-    title: "Booth Demos",
-    description: "Meet the makers",
-    icon: BoothDemosSvg,
-    buttonIcon: Presentation,
-    buttonText: "Booth Demos",
-    href: "/booths",
-    initialRotation: 4.7,
-    delay: 0.4,
-  },
+  }
 ];
 
 export default function FeatureCards({
