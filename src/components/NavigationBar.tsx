@@ -1,10 +1,8 @@
 "use client";
 import {
   HouseIcon,
-  PresentationIcon,
   Sprout,
   TheaterIcon,
-  UsersIcon,
 } from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";

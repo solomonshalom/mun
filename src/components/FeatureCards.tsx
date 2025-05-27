@@ -1,9 +1,8 @@
-import { Presentation, Sparkles, SproutIcon, Users } from "lucide-react";
+import { Sparkles, SproutIcon } from "lucide-react";
 import { HTMLAttributes } from "react";
 import { cn } from "../lib/utils";
 
 // Svgs
-import BoothDemosSvg from "@/components/svg/BoothDemos.svg";
 import Garden from "@/components/svg/Garden.svg";
 import StageDemosSvg from "@/components/svg/StageDemos.svg";
 import FeatureCard from "./FeatureCard";
