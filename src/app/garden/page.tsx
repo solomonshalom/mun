@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Garden | Socratica Symposium",
+  title: "Garden | NHIS Symposium",
   description: "Our Lil Garden",
 };
 

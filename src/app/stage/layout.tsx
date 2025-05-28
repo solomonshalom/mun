@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Stage Demos | Socratica Symposium",
+  title: "Stage Demos | NHIS Symposium",
 };
 
 export default function StageLayout({

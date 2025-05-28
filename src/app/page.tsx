@@ -40,7 +40,7 @@ export default function Home() {
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-tiempos tracking-tight font-normal">
-              Socratica Symposium
+              NHIS Symposium
             </h1>
             {/* <p className="text-lg mt-2">info, for the love of making ;)</p> */}
             <div className="mt-8 space-y-6 md:space-y-8 font-5by7 font-bold uppercase tracking-wider opacity-90 text-[0.95rem] md:text-base">

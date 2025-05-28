@@ -59,7 +59,7 @@ const conte = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Socratica Symposium",
+  title: "NHIS Symposium",
   description:
     "We booked out a hockey arena to host the world's greatest demo day: 70+ passion projects, from Iron Man suits to art installations!",
 };
