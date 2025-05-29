@@ -67,6 +67,26 @@ export default function Home() {
             </div>
           </motion.div>
 
+            <motion.a
+            className="mt-10 md:mt-0 block"
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.63, duration: 0.5, ease: "easeOut" }}
+            href="https://www.youtube.com/live/mkJjbCQC_Qs"
+            onClick={handleWatchLivestreamClick}
+          >
+            <button className="glassmorphic-light-button">
+              <span className="shadow"></span>
+              <span className="edge"></span>
+              <span className="front">
+                <SocraticaLogo className="w-[16px] md:w-[20px] text-white" />
+                <div className="text-[#F5F1E2] tracking-widest font-5by7 font-bold uppercase text-sm py-5">
+                  Apply Now
+                </div>
+              </span>
+            </button>
+          </motion.a>
+
           <motion.a
             className="mt-10 md:mt-0 block"
             initial={{ opacity: 0, y: 15 }}
@@ -105,7 +125,7 @@ export default function Home() {
             <Hero />
             {isRiveLoaded && (
               <>
-                <FeatureCards title="Welcome to the World's Best Demo Day." />
+                <FeatureCards className="align-items: center" title="Welcome to the World's Best Demo Day." />
                 <InfoSection />
                 <Footer />
               </>
