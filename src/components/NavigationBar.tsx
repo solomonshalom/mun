@@ -55,7 +55,7 @@ export default function NavigationBar() {
               <p>Home</p>
             </TooltipContent>
           </Tooltip>
-
+    {/*
           <Tooltip>
             <TooltipTrigger>
               <NavIcon href="/garden" active={pathname === "/garden"}>
@@ -66,7 +66,7 @@ export default function NavigationBar() {
               <p>Garden</p>
             </TooltipContent>
           </Tooltip>
-
+*/}
           <Tooltip>
             <TooltipTrigger>
               <NavIcon href="/stage" active={pathname === "/stage"}>
