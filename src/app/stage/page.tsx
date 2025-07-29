@@ -29,9 +29,9 @@ const DEMO_DATA: DemoCardProps[] = [
     title: "Swarit Tadakod",
     author: "Director General & VC of UNSC",
     description:
-      "The inspirational story of pursuing writing, and finding what one is truly passionate about.",
+      "As the Director General of NHIS MUN 2025, Swarit Tadakod brings together experience, passion, and a clear vision to lead a conference where young voices tackle real-world issues and every delegate feels heard.",
     icon: Georgia,
-    href: "",
+    href: "https://instagram.com/swarit_champ",
   },
   {
     title: "Vidya S",
