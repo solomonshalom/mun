@@ -29,7 +29,7 @@ const DEMO_DATA: DemoCardProps[] = [
     href: "",
   },
   {
-    title: "Swarit",
+    title: "Swarit Tadakod",
     author: "Director General & VC of UNSC",
     description:
       "The inspirational story of pursuing writing, and finding what one is truly passionate about.",
