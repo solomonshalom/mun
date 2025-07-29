@@ -1,7 +1,6 @@
 "use client";
 import {
   HouseIcon,
-  Sprout,
   TheaterIcon,
 } from "lucide-react";
 import { motion } from "motion/react";
