@@ -101,6 +101,7 @@ export default function Home() {
         <div className="relative">
           {/* <div className="absolute inset-0 bg-[url('/dither.png')] bg-cover opacity-25 z-0"></div> */}
           <div className="relative z-10">
+            <Hero />
             {isRiveLoaded && (
               <>
                 <InfoSection />
