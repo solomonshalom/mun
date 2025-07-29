@@ -74,7 +74,7 @@ export default function NavigationBar() {
               </NavIcon>
             </TooltipTrigger>
             <TooltipContent className="font-5by7 uppercase tracking-widest font-medium">
-              <p>Stage</p>
+              <p>Team</p>
             </TooltipContent>
           </Tooltip>
         </motion.div>

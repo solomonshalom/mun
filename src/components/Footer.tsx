@@ -95,39 +95,15 @@ export function Footer() {
           transition={{ duration: 0.7, delay: 0.35 }}
         >
           <p className="text-xs md:text-sm">
-            PRODUCT OF{" "}
+            Built By{" "}
             <a
               href="https://twitter.com/freemanjiangg"
               target="_blank"
               className="font-semibold relative inline-block transition-colors hover:text-zinc-500/90"
             >
-              <span className="relative inline-block">FREEMAN</span>
-            </a>{" "}
-            ✗{" "}
-            <a
-              href="https://twitter.com/userisgrotesque"
-              target="_blank"
-              className="font-semibold relative inline-block transition-colors hover:text-zinc-500/90"
-            >
-              <span className="relative inline-block">AILEEN</span>
-            </a>{" "}
+              <span className="relative inline-block">Solomon Shalom Lijo</span>
+            </a>
             <br />
-            with{" "}
-            <a
-              href="https://twitter.com/_rajanagarwal"
-              target="_blank"
-              className="font-semibold relative inline-block transition-colors hover:text-zinc-500/90"
-            >
-              <span className="relative inline-block">RAJAN</span>
-            </a>{" "}
-            &{" "}
-            <a
-              className="font-semibold relative inline-block transition-colors hover:text-zinc-500/90"
-              href="https://x.com/_chloeyan"
-              target="_blank"
-            >
-              CHLOE
-            </a>{" "}
             ♡
           </p>
         </motion.div>

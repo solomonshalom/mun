@@ -1,5 +1,4 @@
 "use client";
-import FeatureCards from "@/components/FeatureCards";
 import { Footer } from "@/components/Footer";
 import { SocraticaLogo } from "@/components/icons/SocraticaLogo";
 import { InfoSection } from "@/components/InfoSection";
@@ -50,7 +49,7 @@ export default function Home() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
               >
-                JULY 19, 2025
+                August 30, 2025
                 <br />
                 <div className="text-zinc-500">NHIS</div>
               </motion.div>
@@ -62,7 +61,7 @@ export default function Home() {
               >
                 North Hills International School
                 <br />
-                <div className="text-zinc-500">IN-PERSON & VIRTUAL</div>
+                <div className="text-zinc-500">IN-PERSON</div>
               </motion.div>
             </div>
           </motion.div>
@@ -105,7 +104,6 @@ export default function Home() {
             <Hero />
             {isRiveLoaded && (
               <>
-                <FeatureCards className="align-items: center" title="Welcome to the World's Best Demo Day." />
                 <InfoSection />
                 <Footer />
               </>
