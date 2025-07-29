@@ -4,7 +4,6 @@ import { HTMLAttributes } from "react";
 import { cn } from "../lib/utils";
 import { InfoLink } from "./InfoLink";
 import { StarsBackground } from "./StarsBackground";
-import BurritoSvg from "./svg/burrito.svg";
 
 export const infoLinks: InfoLinkItem[] = [
   {
@@ -59,14 +58,6 @@ export const InfoSection = ({
     >
       <StarsBackground />
       <div className="max-w-5xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.7 }}
-        >
-          <BurritoSvg className="w-full px-4 md:px-0 md:max-w-4xl md:mx-auto" />
-        </motion.div>
 
         <div className="mt-8 md:mt-12 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 text-white">
           {infoLinks.map((link, index) => (
