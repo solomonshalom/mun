@@ -3,6 +3,7 @@ import { Footer } from "@/components/Footer";
 import { SocraticaLogo } from "@/components/icons/SocraticaLogo";
 import { InfoSection } from "@/components/InfoSection";
 import { LoadingScreen } from "@/components/LoadingScreen";
+import { Hero } from "@/components/rive/Hero";
 import { useRiveStore } from "@/stores/riveStore";
 import { AnimatePresence, motion } from "motion/react";
 import { usePostHog } from "posthog-js/react";
