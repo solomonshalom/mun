@@ -71,7 +71,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.63, duration: 0.5, ease: "easeOut" }}
-            href="https://www.youtube.com/live/mkJjbCQC_Qs"
+            href="https://tally.so/r/np1L9B"
             onClick={handleWatchLivestreamClick}
           >
             <button className="glassmorphic-light-button">
@@ -80,7 +80,7 @@ export default function Home() {
               <span className="front">
                 <SocraticaLogo className="w-[16px] md:w-[20px] text-white" />
                 <div className="text-[#F5F1E2] tracking-widest font-5by7 font-bold uppercase text-sm py-5">
-                  Apply Now
+                  Register Now
                 </div>
               </span>
             </button>
