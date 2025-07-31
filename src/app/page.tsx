@@ -66,45 +66,47 @@ export default function Home() {
             </div>
           </motion.div>
 
-                    <motion.a
-            className="mt-10 md:mt-0 block"
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.63, duration: 0.5, ease: "easeOut" }}
-            href="https://tally.so/r/np1L9"
-            onClick={handleWatchLivestreamClick}
-          >
-            <button className="glassmorphic-light-button">
-              <span className="shadow"></span>
-              <span className="edge"></span>
-              <span className="front">
-                <SocraticaLogo className="w-[16px] md:w-[20px] text-white" />
-                <div className="text-[#F5F1E2] tracking-widest font-5by7 font-bold uppercase text-sm py-5">
-                  Know More
-                </div>
-              </span>
-            </button>
-          </motion.a>
+          <div className="mt-10 md:mt-0 flex flex-col space-y-4">
+            <motion.a
+              className="block"
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.63, duration: 0.5, ease: "easeOut" }}
+              href="https://tally.so/r/np1L9"
+              onClick={handleWatchLivestreamClick}
+            >
+              <button className="glassmorphic-light-button">
+                <span className="shadow"></span>
+                <span className="edge"></span>
+                <span className="front">
+                  <SocraticaLogo className="w-[16px] md:w-[20px] text-white" />
+                  <div className="text-[#F5F1E2] tracking-widest font-5by7 font-bold uppercase text-sm py-5">
+                    The Brochure
+                  </div>
+                </span>
+              </button>
+            </motion.a>
 
-          <motion.a
-            className="mt-10 md:mt-0 block"
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.63, duration: 0.5, ease: "easeOut" }}
-            href="https://tally.so/r/np1L9B"
-            onClick={handleWatchLivestreamClick}
-          >
-            <button className="glassmorphic-light-button">
-              <span className="shadow"></span>
-              <span className="edge"></span>
-              <span className="front">
-                <SocraticaLogo className="w-[16px] md:w-[20px] text-white" />
-                <div className="text-[#F5F1E2] tracking-widest font-5by7 font-bold uppercase text-sm py-5">
-                  Register Now
-                </div>
-              </span>
-            </button>
-          </motion.a>
+            <motion.a
+              className="block"
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.8, duration: 0.5, ease: "easeOut" }}
+              href="https://tally.so/r/np1L9B"
+              onClick={handleWatchLivestreamClick}
+            >
+              <button className="glassmorphic-light-button">
+                <span className="shadow"></span>
+                <span className="edge"></span>
+                <span className="front">
+                  <SocraticaLogo className="w-[16px] md:w-[20px] text-white" />
+                  <div className="text-[#F5F1E2] tracking-widest font-5by7 font-bold uppercase text-sm py-5">
+                    Register Now
+                  </div>
+                </span>
+              </button>
+            </motion.a>
+          </div>
         </div>
       </div>
 
