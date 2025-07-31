@@ -3,7 +3,6 @@ import { motion } from "motion/react";
 import { HTMLAttributes } from "react";
 import { cn } from "../lib/utils";
 import { InfoLink } from "./InfoLink";
-import { StarsBackground } from "./StarsBackground";
 
 export const infoLinks: InfoLinkItem[] = [
   {
@@ -61,7 +60,6 @@ export const InfoSection = ({
       )}
       {...rest}
     >
-      <StarsBackground />
       <div className="max-w-5xl mx-auto">
 
         <div className="mt-8 md:mt-12 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 text-white">

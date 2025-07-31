@@ -22,7 +22,7 @@ export function Footer() {
           <p className="text-xs md:text-sm">
             Built By{" "}
             <a
-              href="https://twitter.com/freemanjiangg"
+              href="https://twitter.com/shalomlijo"
               target="_blank"
               className="font-semibold relative inline-block transition-colors hover:text-zinc-500/90"
             >
