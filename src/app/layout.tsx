@@ -61,7 +61,7 @@ const conte = localFont({
 export const metadata: Metadata = {
   title: "NHIS Symposium",
   description:
-    "We booked out a hockey arena to host the world's greatest demo day: 70+ passion projects, from Iron Man suits to art installations!",
+    "The greatest MUN to have ever existed! Welcome to Symposium",
 };
 
 export default function RootLayout({
