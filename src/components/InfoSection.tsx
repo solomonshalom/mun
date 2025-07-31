@@ -18,8 +18,8 @@ export const infoLinks: InfoLinkItem[] = [
   },
   {
     title: "The Team",
-    description: "Your chairs, moderators and everyone you need!",
-    url: "https://nhissymposium.space/",
+    description: "Your chairs, moderators, and everyone you need!",
+    url: "https://nhissymposium.space/stage",
   },
   {
     title: "About NHIS",
@@ -32,9 +32,9 @@ export const infoLinks: InfoLinkItem[] = [
     url: "https://www.notion.so/solomonlijo/Code-of-Conduct-23f4c3d854ab81c08c8bd7dd181a030d?source=copy_link",
   },
   {
-    title: "UNSC Position Paper Submission"
+    title: "UNSC Position Paper Submission",
     description: "TBA"
-    url: ""
+    url: "https://github.com/solomonshalom/mun/commit/da705e44446590c8561492375295c9fc34b1cca3"
   }
 ];
 
