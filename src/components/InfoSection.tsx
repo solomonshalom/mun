@@ -9,27 +9,27 @@ export const infoLinks: InfoLinkItem[] = [
   {
     title: "Getting to the School",
     description: "In-person",
-    url: "",
+    url: "https://www.notion.so/solomonlijo/Getting-to-NHIS-23f4c3d854ab8167aba6c25eae1d96bd?source=copy_link",
   },
   {
-    title: "The MUN",
-    description: "The delegate's package of information",
-    url: "",
+    title: "The MUN Package",
+    description: "The schedule of the MUN",
+    url: "https://www.notion.so/solomonlijo/NHIS-MUN-Delegate-Package-23f4c3d854ab803bba1be505b5ea63e1?source=copy_link",
   },
   {
     title: "The Team",
     description: "Your chairs, moderators and everyone you need!",
-    url: "",
+    url: "https://nhissymposium.space/",
   },
   {
     title: "About NHIS",
     description: "Learn more about NHIS and it's mission",
-    url: "",
+    url: "https://nhisblr.com",
   },
   {
     title: "Our Code of Conduct",
     description: "Set of guidelines you'll need to adhere to at our events.",
-    url: "",
+    url: "https://www.notion.so/solomonlijo/Code-of-Conduct-23f4c3d854ab81c08c8bd7dd181a030d?source=copy_link",
   },
 ];
 
