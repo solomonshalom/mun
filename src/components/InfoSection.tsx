@@ -33,7 +33,7 @@ export const infoLinks: InfoLinkItem[] = [
   },
   {
     title: "UNSC Position Paper Submission",
-    description: "TBA"
+    description: "TBA",
     url: "https://github.com/solomonshalom/mun/commit/da705e44446590c8561492375295c9fc34b1cca3"
   }
 ];
