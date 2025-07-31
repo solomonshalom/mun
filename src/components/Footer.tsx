@@ -1,13 +1,14 @@
 "use client";
-import ShopifyGuySvg from "@/components/svg/ShopifyGuy.svg";
-import VapiSvg from "@/components/svg/VAPI.svg";
-import VercelSvg from "@/components/svg/VercelLogo.svg";
+// import ShopifyGuySvg from "@/components/svg/ShopifyGuy.svg";
+// import VapiSvg from "@/components/svg/VAPI.svg";
+// import VercelSvg from "@/components/svg/VercelLogo.svg";
 import { motion } from "motion/react";
 
 export function Footer() {
   return (
     <div className="bg-[#f8f3e3] grid-pattern-vignette">
       <footer className="container mx-auto px-4 py-16 md:py-24 text-center">
+{/*
         <motion.p
           className="uppercase text-xs md:text-sm text-zinc-600 mb-8 md:mb-12 font-5by7 font-bold tracking-wider"
           initial={{ opacity: 0, y: 10 }}
@@ -82,6 +83,7 @@ export function Footer() {
           >
             <VercelSvg className="h-[20px] md:h-[23px] invert-0 brightness-0" />
           </motion.a>
+          */}
         </div>
         <motion.div
           className="mt-12 md:mt-16 px-4 py-2.5 border border-[#A4A4A4]/30 bg-white transition-shadow duration-300 font-5by7 font-medium uppercase tracking-wider w-fit mx-auto text-zinc-600"

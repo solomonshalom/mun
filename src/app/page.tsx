@@ -72,7 +72,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.63, duration: 0.5, ease: "easeOut" }}
-              href="https://tally.so/r/np1L9"
+              href="https://drive.google.com/file/d/1aDeRgyXmBurvdPeMAqVC1qY-E04Y0yn6/view?usp=sharing"
               onClick={handleWatchLivestreamClick}
             >
               <button className="glassmorphic-light-button">
