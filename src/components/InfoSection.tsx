@@ -31,6 +31,11 @@ export const infoLinks: InfoLinkItem[] = [
     description: "Set of guidelines you'll need to adhere to at our events.",
     url: "https://www.notion.so/solomonlijo/Code-of-Conduct-23f4c3d854ab81c08c8bd7dd181a030d?source=copy_link",
   },
+  {
+    title: "UNSC Position Paper Submission"
+    description: "TBA"
+    url: ""
+  }
 ];
 
 export type InfoLinkItem = {
