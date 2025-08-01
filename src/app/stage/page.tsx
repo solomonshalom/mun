@@ -29,7 +29,7 @@ const DEMO_DATA: DemoCardProps[] = [
     title: "Swarit Tadakod",
     author: "Director General & VC of UNSC",
     description:
-      "As the Director General of NHIS MUN 2025, Swarit Tadakod brings together experience, passion, and a clear vision to lead a conference where young voices tackle real-world issues and every delegate feels heard.",
+      "As the Director General of Symposium, Swarit Tadakod brings together experience, passion, and a clear vision to lead a conference where young voices tackle real-world issues and every delegate feels heard.",
     icon: Georgia,
     href: "https://instagram.com/swarit_champ",
   },
@@ -37,7 +37,7 @@ const DEMO_DATA: DemoCardProps[] = [
     title: "Vidya S",
     author: "Under-Secretary General & Moderator of UNSC",
     description:
-      "A group of students who are fabricating their own computer chips (an incredibly challenging feat), and the humorous story of starting in an apartment and now a full design team on campus.",
+      "As Under Secretary-General of Symposium, I’m the one making sure the chaos stays organized! From last-minute printouts to smooth schedules, I’m all about keeping things on track while having a blast behind the scenes.",
     icon: HackerFab,
     href: "",
   },

@@ -55,14 +55,14 @@ export const InfoSection = ({
   return (
     <section
       className={cn(
-        "container mx-auto px-4 py-16 md:py-24 lg:py-32 relative",
+        "container mx-auto px-4 py-16 md:py-24 lg:py-32 relative bg-[#f8f3e3] grid-pattern-vignett",
         className
       )}
       {...rest}
     >
       <div className="max-w-5xl mx-auto">
 
-        <div className="mt-8 md:mt-12 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 text-white">
+        <div className="mt-8 md:mt-12 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 text-black">
           {infoLinks.map((link, index) => (
             <motion.div
               key={link.title}
