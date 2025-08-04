@@ -10,6 +10,7 @@ import HackerFab from "@/components/svg/demos/hackerfab.svg";
 import Jasmine from "@/components/svg/demos/jasmine.svg";
 import Rikard from "@/components/svg/demos/rikard.svg";
 import Rishi from "@/components/svg/demos/rishi.svg";
+import Kevin from "@/components/svg/demos/kevin.svg";
 import Ticker from "@/components/Ticker";
 import { BLUR_CONTENT } from "@/flags";
 import { motion } from "motion/react";
@@ -21,9 +22,12 @@ const DEMO_DATA: DemoCardProps[] = [
     title: "Solomon Shalom Lijo",
     author: "General Secretary",
     description:
-      "The inspirational story of starting a company that is modernizing urban planning and policy, and bringing more awareness to the importance of this field.",
+      `"Love your enemies." — Jesus Christ" \n \n
+Solomon, the General Secretary of Symposium, walks with the quiet strength of a man after God’s own heart.
+Guided by scripture, he sees politics and debate not just as weapons of divide and rule, but as a calling to serve and uplift.
+As a Senior & as the School Captain at North Hills International School, he leads with conviction, compassion, and a vision rooted in grace. `,
     icon: Rishi,
-    href: "",
+    href: "https://instagram.com/solomon_lijo",
   },
   {
     title: "Swarit Tadakod",
@@ -37,7 +41,7 @@ const DEMO_DATA: DemoCardProps[] = [
     title: "Vidya S",
     author: "Under-Secretary General & Moderator of UNSC",
     description:
-      "As Under Secretary-General of Symposium, I’m the one making sure the chaos stays organized! From last-minute printouts to smooth schedules, I’m all about keeping things on track while having a blast behind the scenes.",
+      "Vidya, the Under Secretary-General of Symposium, is the force behind the scenes ensuring that chaos turns into coordination. Whether it’s managing last-minute printouts or fine-tuning schedules, she thrives on keeping everything on track—all while bringing energy, efficiency, and a touch of fun to the MUN’s backstage hustle.",
     icon: HackerFab,
     href: "",
   },
@@ -45,15 +49,32 @@ const DEMO_DATA: DemoCardProps[] = [
     title: "Sukumar Sriram",
     author: "Chair of UNHRC",
     description:
-      "BracketBot: An open source robotics kit, the interesting and humorous story behind them.",
+      "",
     icon: Brian,
+    href: "",
+  },
+  {
+    title: "Aarna Awasthi",
+    author: "Co-Chair of UNHRC",
+    description:
+      `"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present. — Master Oogway" \n \n
+      Living by this, Aarna brings unmatched presence to committee with a consistent placement rate of ninety five percent in HRC. She thrives in live debate, believes in seizing every moment, and balances her love for MUNs with a deep interest in culinary arts. A student at DPS East, she hopes to pursue international law ideally with a snack in hand`,
+    icon: Kevin,
+    href: "",
+  },
+  {
+    title: "Dhruv N.M",
+    author: "Chair of UNSC",
+    description:
+      "",
+    icon: Rikard,
     href: "",
   },
   {
     title: "Meekha",
     author: "Vice-Chair of UNHRC",
     description:
-      "The inspirational journey of pursuing art over the years, taking risks, and making things that are intrinsic to oneself, regardless of technical perfection.",
+      "",
     icon: Jasmine,
     href: "",
   },
@@ -61,17 +82,13 @@ const DEMO_DATA: DemoCardProps[] = [
     title: "Stephanie",
     author: "Moderator of UNHRC",
     description:
-      "The humorous story of putting googly eyes on a train to raise awareness for public transit, and possibly the story of starting 3+ Socratica nodes.",
+      `Stephanie brings boldness and clarity to every committee she enters.
+A delegate from North Hills International School, she’s placed in both MUNs she’s attended so far.
+Known for sharp arguments, fearless diplomacy, and a creative spark rooted in art and music,
+she tackles global issues with conviction—and speaks to be heard and remembered.`
+,
     icon: Arielle,
-    href: "https://x.com/ariellelok",
-  },
-  {
-    title: "Dhruv N.M",
-    author: "Chair of UNSC",
-    description:
-      "The humorous yet awe-inspiring story behind conducting research in lab-grown/cell-based meat for the last 2+ years, and a discussion of alternative proteins and their necessity for our future.",
-    icon: Rikard,
-    href: "",
+    href: "https://www.instagram.com/stephanie_mascarenhas/",
   }
 ];
 
