@@ -49,7 +49,7 @@ export default function DemoCard({
           {title}
         </a>
         <p className="mb-4 text-zinc-100">{author}</p>
-        <p className="text-sm text-zinc-400">{description}</p>
+        <p className="whitespace-pre-line text-sm text-zinc-400">{description}</p>
         <a
           href={href}
           target="_blank"

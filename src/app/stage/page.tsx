@@ -22,7 +22,7 @@ const DEMO_DATA: DemoCardProps[] = [
     title: "Solomon Shalom Lijo",
     author: "General Secretary",
     description:
-      `"Love your enemies." — Jesus Christ" \n \n
+      `"Love your enemies." — Jesus Christ"\n\n
 Solomon, the General Secretary of Symposium, walks with the quiet strength of a man after God’s own heart.
 Guided by scripture, he sees politics and debate not just as weapons of divide and rule, but as a calling to serve and uplift.
 As a Senior & as the School Captain at North Hills International School, he leads with conviction, compassion, and a vision rooted in grace. `,
@@ -57,7 +57,7 @@ As a Senior & as the School Captain at North Hills International School, he lead
     title: "Aarna Awasthi",
     author: "Co-Chair of UNHRC",
     description:
-      `"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present. — Master Oogway"<br /><br />
+      `"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present. — Master Oogway"\n\n
       Living by this, Aarna brings unmatched presence to committee with a consistent placement rate of ninety five percent in HRC. She thrives in live debate, believes in seizing every moment, and balances her love for MUNs with a deep interest in culinary arts. A student at DPS East, she hopes to pursue international law ideally with a snack in hand`,
     icon: Kevin,
     href: "",
