@@ -49,7 +49,7 @@ As a Senior & as the School Captain at North Hills International School, he lead
     title: "Sukumar Sriram",
     author: "Chair of UNHRC",
     description:
-      "",
+      `"The hottest places in hell are reserved for those who, in times of great moral crisis, maintain their neutrality." - Dante Aligheri"`,
     icon: Brian,
     href: "",
   },
