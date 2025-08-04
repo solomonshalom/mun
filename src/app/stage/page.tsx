@@ -57,7 +57,7 @@ As a Senior & as the School Captain at North Hills International School, he lead
     title: "Aarna Awasthi",
     author: "Co-Chair of UNHRC",
     description:
-      `"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present. — Master Oogway" \n \n
+      `"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present. — Master Oogway"<br /><br />
       Living by this, Aarna brings unmatched presence to committee with a consistent placement rate of ninety five percent in HRC. She thrives in live debate, believes in seizing every moment, and balances her love for MUNs with a deep interest in culinary arts. A student at DPS East, she hopes to pursue international law ideally with a snack in hand`,
     icon: Kevin,
     href: "",
